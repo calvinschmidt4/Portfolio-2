@@ -131,10 +131,49 @@ h4 {
     margin: auto;
 }
 
+.portfolio-content {
+    display: flex;
+}
+
+
 
 
 
 
 .overmij-var-info-container {
     display: flex;
+    border: 1px #1492A8 solid;
+}
+
+.overmij-var-title {
+    background-color: #1492A8;
+    display: flex;
+    height: 48px;
+    width: 416px;
+    margin: 0 auto;
+}
+
+h6 {
+    margin: auto;
+    color: #fff;
+}
+
+
+
+
+
+.overmij-cyclus-container {
+    display: flex;
+}
+
+.overmij-cyclus-info {
+    border: 1px #1492A8 solid;
+}
+
+.overmij-cyclus-title {
+    background-color: #1492A8;
+    display: flex;
+    height: 48px;
+    width: 416px;
+    margin: 0 auto;
 }
