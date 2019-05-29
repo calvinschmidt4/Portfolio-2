@@ -18,7 +18,7 @@ h2, h3 {
     z-index: 10;
     top: 0;
     position: fixed;
-    height: 80px;
+    height: 56px;
     background-color: #fff;
     width: 100%;
     display: flex;
@@ -64,13 +64,13 @@ li a {
 
 
 .logo {
-    height: 50px;
+    height: 44px;
     width: auto;
     margin: auto 0;
 }
 
 .logo img {
-    height: 50px;
+    height: 44px;
     width: auto;
 }
 
@@ -114,4 +114,27 @@ h2 {
 h3 {
     margin: auto;
     color: #1492A8;
+}
+
+.portfolio {
+
+}
+
+.portfolio-title, .overmij-title {
+    background-color: #1492A8;
+    height: 96px;
+    display: flex;
+}
+
+h4 {
+    color: #fff;
+    margin: auto;
+}
+
+
+
+
+
+.overmij-var-info-container {
+    display: flex;
 }
