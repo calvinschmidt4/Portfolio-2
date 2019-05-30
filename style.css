@@ -49,14 +49,9 @@ input[type=checkbox] {
 
 label {
     position: absolute;
-    right: 0;
-
-
+    right: 32px;
     display: flex;
-    color: #1492A8;    
-    font-style: normal;
-    font-size: 1.2em;
-    padding: 13.5px;
+    color: #1492A8;      
     box-sizing: border-box;
     height: 56px;
 }
