@@ -26,15 +26,15 @@ p {
     top: 0;
     position: fixed;
     height: 56px;
-    background-color: #fff;    width: 100%;
-    
+    background-color: #fff;    
+    width: 100%;    
     display: flex;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
    
 }
 
 .navigate-container {
-    padding: 0 32px;
+    padding: 0 16px;
     max-width: 1600px;  
     margin: 0;
     display: flex; 
@@ -49,7 +49,7 @@ input[type=checkbox] {
 
 label {
     position: absolute;
-    right: 32px;
+    right: 16px;
     display: flex;
     color: #1492A8;      
     box-sizing: border-box;
@@ -318,6 +318,12 @@ h6 {
 @media only screen and (min-width: 600px) {
 
     /* NOHAMBURGER NAV */
+
+    .navigate-container {
+        padding: 0 32px;
+       
+        
+    }
 
     label, #hamburger {
         display: none;
