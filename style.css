@@ -28,6 +28,13 @@ p {
     visibility: hidden;
 }
 
+.offset-overmij {
+    display: block;
+    position: relative;
+    top: 48px;
+    visibility: hidden;
+}
+
 /* NAV */
 
 .navigate {
@@ -321,7 +328,7 @@ h5 {
 .overmij-var {
     max-width: 1600px; 
     padding: 0 32px; 
-    margin: 60px auto 0 auto;
+    margin: 120px auto 0 auto;
 
 }
 
@@ -342,18 +349,13 @@ h5 {
     border: 1px #1492A8 solid;
     box-sizing: border-box;
     margin-top: -24px; 
-    padding-top: 32px;   
-    display: flex;    
-    justify-content: space-between;
-    flex-flow: wrap;
+    padding-top: 32px;
     
 }
 
-.overmij-var-info {
-    flex-basis: 30%;
+.overmij-var-info {    
     padding: 20px;
     box-sizing: border-box;
-
     margin-bottom: 32px;
 }
 
@@ -497,6 +499,19 @@ h6 {
     .metekst {
         flex-basis: 60%;
     }
+
+    /* OVERMIJ > vaardigheden */
+
+    .overmij-var-info-container {      
+        display: flex;  
+        justify-content: space-between;
+        flex-flow: wrap;
+        
+    }
+    
+    .overmij-var-info {    
+        flex-basis: 45%;
+    }
 }
 
 
@@ -516,6 +531,14 @@ h6 {
     .metekst {
         flex-basis: 40%;
     }
+
+    /* OVERMIJ > vaardigheden */
+    
+    .overmij-var-info {    
+        flex-basis: 30%;
+        padding: 40px;
+    }
+        
 
     
 }
