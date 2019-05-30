@@ -52,15 +52,13 @@ label {
     right: 0;
 
 
-    display: inline-block;
+    display: flex;
     color: #1492A8;    
     font-style: normal;
     font-size: 1.2em;
     padding: 13.5px;
     box-sizing: border-box;
     height: 56px;
-
-   
 }
 
 nav {      
