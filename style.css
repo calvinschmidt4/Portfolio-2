@@ -19,6 +19,13 @@ p {
     padding: 0;
 }
 
+.offset {
+    display: block;
+    position: relative;
+    top: -72px;
+    visibility: hidden;
+}
+
 /* NAV */
 
 .navigate {
@@ -194,6 +201,8 @@ main {
     margin: 0 auto;
     background-color: #F2F2F2;
 }
+
+
 
 .portfolio {    
     margin-top: 120px;
