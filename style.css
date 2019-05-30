@@ -282,14 +282,6 @@ h4 {
     margin-top: 120px;
 }
 
-.overmij-var-info-container {
-    max-width: 1600px;
-    margin: 0 auto;
-    display: flex;
-    border: 1px #1492A8 solid;
-    box-sizing: border-box;
-}
-
 .overmij-var-title {
     background-color: #1492A8;
     display: flex;
@@ -304,7 +296,7 @@ h5 {
 }
 
 .overmij-intro {   
-    margin: 120px auto;   
+    margin: 120px auto 0 auto;   
     max-width: 1600px;
     padding: 0 32px;    
 }
@@ -323,24 +315,15 @@ h5 {
     margin-top: 60px;
 }
 
-.overmij-cyclus-container {
-    display: flex;
-}
-
-.overmij-cyclus-info {
-    border: 1px #1492A8 solid;
-}
-
-.overmij-cyclus-title {
-    background-color: #1492A8;
-    display: flex;
-    height: 48px;
-    /* width: 416px; */
-    margin: 0 auto;
-}
-
 
 /* OVER MIJ > vaardigheden */
+
+.overmij-var {
+    max-width: 1600px; 
+    padding: 0 32px; 
+    margin: 60px auto 0 auto;
+
+}
 
 .overmij-var-title {
     display: flex;
@@ -355,11 +338,12 @@ h5 {
     transform: skewX(12deg);       
 }
 
-.overmij-var-info-container {
-    margin-top: -24px;
-    padding: 40px 32px 0 32px;
-    display: flex;
-    
+.overmij-var-info-container {     
+    border: 1px #1492A8 solid;
+    box-sizing: border-box;
+    margin-top: -24px; 
+    padding-top: 32px;   
+    display: flex;    
     justify-content: space-between;
     flex-flow: wrap;
     
@@ -380,6 +364,25 @@ h6 {
     color: #1492A8;
     margin: 0;
     padding: 0;
+}
+
+
+/* OVER MIJ > cyclus */
+
+.overmij-cyclus-container {
+    display: flex;
+}
+
+.overmij-cyclus-info {
+    border: 1px #1492A8 solid;
+}
+
+.overmij-cyclus-title {
+    background-color: #1492A8;
+    display: flex;
+    height: 48px;
+    /* width: 416px; */
+    margin: 0 auto;
 }
 
 @media only screen and (min-width: 600px) {
@@ -473,7 +476,6 @@ h6 {
 
     .overmij-intro {
         display: flex;
-        /* margin: 120px auto; */
         justify-content: space-around;
         align-items: center;       
     }
