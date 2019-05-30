@@ -49,12 +49,7 @@ p {
     
 }
 
-
-input[type=checkbox] {
-    display: none;
-}
-
-label {
+#togglemenu {
     position: absolute;
     right: 16px;
     display: flex;
@@ -63,8 +58,7 @@ label {
     height: 56px;
 }
 
-nav {      
-    
+nav {       
     position: absolute;
     right: 0;    
     /* height: 100%; */    
@@ -113,6 +107,8 @@ li {
     height: 100%;
     
 }
+
+
 
 li a {  
     margin: auto 0;
@@ -332,11 +328,7 @@ h6 {
         padding: 0 32px;
        
         
-    }
-
-    label, #hamburger {
-        display: none;
-      }
+    }   
 
     nav {  
         
