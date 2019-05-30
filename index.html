@@ -15,11 +15,14 @@
                 <img  src="images/logo.png" alt="">
             </a>  
             <nav id="page-nav">          
-                <input type="checkbox" id="hamburger"/>
-                <label for="hamburger"><img src="images/menu.svg" alt=""></label>
-                <ul>
-                    <li><a href="#portfolio">PORTFOLIO</a></li>
-                    <li><a href="index.html">OVER MIJ</a></li>
+                <!-- <input type="checkbox" id="hamburger"/>
+                <label for="hamburger"><img src="images/menu.svg" alt=""></label> -->
+                <div id="togglemenu">
+                    <img src="images/menu.svg" alt="">
+                </div>
+                <ul id="hide">
+                    <li id="toggle"><a href="index.html#portfolio" >PORTFOLIO</a></li>
+                    <li><a href="index.html#overmij">OVER MIJ</a></li>
                     <li><a href="index.html">CONTACT</a></li>
                 </ul>
                 
@@ -40,7 +43,7 @@
     </header>
     <main>
   
-        <a name="portfolio" class="offset"></a>
+        <a name="portfolio" id="portfolio" class="offset"></a>
         <div class="portfolio">
             <div class="portfolio-title">
                 <h4>PORTFOLIO</h4>
@@ -153,5 +156,26 @@
     <footer>
 
     </footer>
+    <script type="text/javascript">
+        document.getElementById("togglemenu").onclick =
+        function toggle_visibility(hide) {
+               var e = document.getElementById("hide");
+               if(e.style.display == 'block')
+                  e.style.display = 'none';
+               else
+                  e.style.display = 'block';
+            }
+
+        document.getElementById("toggle").onclick =
+        function toggle_visibility(hide) {
+               var e = document.getElementById("hide");
+               if(e.style.display == 'block')
+                  e.style.display = 'none';
+               else
+                  e.style.display = 'block';
+            }    
+           
+        
+    </script>
 </body>
 </html>
