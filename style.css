@@ -6,10 +6,12 @@ body, html {
     font-family: 'poppins', 'sans-serif';
 }
 
-h1 {
+.index-intro p {
     margin: 0;
+    padding: 0;
     color: #1492A8;
     font-size: 48px;
+    font-weight: bold;
 }
 
 
@@ -160,7 +162,7 @@ header {
     transform: skewX(-12deg);    
 }
 
-h2 {
+h1 {
     /* margin: 24px auto auto auto; */
     margin: 8px auto auto auto;
     color: #fff; 
@@ -182,7 +184,7 @@ h2 {
     transform: skewX(-12deg);
 }
 
-h3 {
+h2 {
     margin: auto;
     color: #1492A8;
     /* font-size: 32px;  */
@@ -210,7 +212,7 @@ main {
     display: flex;
 }
 
-h4 {
+h3 {
     color: #fff;
     margin: auto;
     font-size: 30px;
@@ -265,7 +267,7 @@ h4 {
     max-width: 100%;
 }
 
-h5 {
+h4 {
     font-size: 22px;
     color: #1492A8;
     margin: 0;
@@ -285,6 +287,7 @@ h5 {
     margin: 0 auto;
     display: flex;
     border: 1px #1492A8 solid;
+    box-sizing: border-box;
 }
 
 .overmij-var-title {
@@ -295,7 +298,7 @@ h5 {
     margin: 0 auto;
 }
 
-h6 {
+h5 {
     margin: auto;
     color: #fff;
 }
@@ -334,6 +337,49 @@ h6 {
     height: 48px;
     /* width: 416px; */
     margin: 0 auto;
+}
+
+
+/* OVER MIJ > vaardigheden */
+
+.overmij-var-title {
+    display: flex;
+    transform: skewX(-12deg);
+    height: 48px; 
+}
+
+h5 {
+    font-size: 28px;
+    margin: auto;
+    padding: 0;
+    transform: skewX(12deg);       
+}
+
+.overmij-var-info-container {
+    margin-top: -24px;
+    padding: 40px 32px 0 32px;
+    display: flex;
+    
+    justify-content: space-between;
+    flex-flow: wrap;
+    
+}
+
+.overmij-var-info {
+    flex-basis: 30%;
+    padding: 20px;
+    box-sizing: border-box;
+
+    margin-bottom: 32px;
+}
+
+
+
+h6 {
+    font-size: 24px;
+    color: #1492A8;
+    margin: 0;
+    padding: 0;
 }
 
 @media only screen and (min-width: 600px) {
@@ -384,7 +430,7 @@ h6 {
     }
 
 
-    h1 {      
+    .index-intro p {      
         font-size: 64px;
     }
 
@@ -394,7 +440,7 @@ h6 {
         max-width: 720px;    
     }
     
-    h2 {
+    h1 {
         margin: 16px auto auto auto;    
         font-size: 40px;         
     }
@@ -405,7 +451,7 @@ h6 {
         max-width: 440px;      
     }
     
-    h3 {       
+    h2 {       
         font-size: 32px;        
     }
 
