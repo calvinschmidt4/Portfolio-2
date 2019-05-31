@@ -32,7 +32,7 @@ p {
 .offset-overmij {
     display: block;
     position: relative;
-    top: 48px;
+    top: 16px;
     visibility: hidden;
 }
 
@@ -565,6 +565,10 @@ footer {
 
     html {
         scroll-behavior: smooth;
+    }
+
+    .offset-overmij {       
+        top: 48px;     
     }
 
     /* NOHAMBURGER NAV */
