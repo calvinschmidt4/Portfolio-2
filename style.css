@@ -7,10 +7,6 @@ body, html {
     
 }
 
-html {
-    scroll-behavior: smooth;
-}
-
 .index-intro p {
     margin: 0;
     padding: 0;
@@ -440,11 +436,11 @@ footer {
 
 .detail-container {
     background-color: #fff;
-    margin-top: 80px;
+    margin: 160px auto 120px auto;
 }
 
 .detail-page {
-    max-width: 784heapx;
+    max-width: 784px;
     padding: 0 16px;
     margin: auto;
 }
@@ -461,6 +457,24 @@ footer {
     margin: auto;
 }
 
+.bullits {
+    padding: 20px;
+    margin-top: 60px;
+}
+
+.detail-info-container {
+}
+
+
+.detail-info-container p, .detail-info-container img {
+    margin-top: 20px;
+}
+
+.detail-info {
+    margin-top: 60px;
+}
+
+
 .detail-info-text h2 {
     transform: skewX(0); 
     text-align: center;
@@ -468,7 +482,61 @@ footer {
 
 
 
+
+
+
+/* DETAIL IMAGES CAROUSEL */
+
+.detail-info-img {
+    position: relative;
+    width: 100%;
+    margin: 20px auto 0 auto;
+}
+  
+.detail-info-img img {
+    width: 50%;
+    height: auto;
+    margin: auto;
+}
+  
+.img-btn-left{  
+    left: 0; 
+    transform: translateY(-50%); 
+}
+  
+.img-btn-right{
+    right: 0; 
+    transform: translateY(-50%);
+}
+  
+.img-btn-all {
+    background-color: #000;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    font-size: 16px;
+    padding: 8px 16px;
+    border: 0;
+    cursor: pointer; 
+    outline: none;
+}
+  
+  
+.img-btn-all:hover {
+    background-color: #1492A8;
+}
+  
+.mySlides {display:none;}
+
+
+
+
+
 @media only screen and (min-width: 600px) {
+
+    html {
+        scroll-behavior: smooth;
+    }
 
     /* NOHAMBURGER NAV */
 
