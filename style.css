@@ -453,14 +453,33 @@ footer {
 
 .bullits {
     border: 1px #1492A8 solid;
-    max-width: 240px;
+    max-width: 320px;
     margin: auto;
 }
 
 .bullits {
-    padding: 20px;
     margin-top: 60px;
 }
+
+.bullits-info {
+    display: flex;
+    margin: 20px 40px;
+    
+}
+
+.bullits-info a {    
+    color: #000;
+    font-weight: bold;
+}
+
+.bullits-info p {
+    font-weight: bold;
+}
+
+.bullits-info img {
+    margin-right: 10px;
+}
+
 
 .detail-info-container {
 }
