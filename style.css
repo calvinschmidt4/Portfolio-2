@@ -153,7 +153,7 @@ header {
     width: 100%;
     text-align: center;
     margin: auto;
-    padding: 32px;
+    padding: 0 16px;
 }
 
 .big-intro-square {
@@ -226,13 +226,19 @@ h3 {
 }
 
 .portfolio-content-container {
-    padding: 0 32px;
+    padding: 0 16px;
     max-width: 1600px;
     margin: 120px auto 0 auto;
     background-color: #F2F2F2;
     
     
     
+}
+
+.portfolio-content-container a {
+    text-decoration: none;
+    display: block;
+    color: #000;
 }
 
 .portfolio-content {  
@@ -292,7 +298,7 @@ h4 {
 .overmij-intro {   
     margin: 120px auto 0 auto;   
     max-width: 1600px;
-    padding: 0 32px;    
+    padding: 0 16px;    
 }
 
 .overmij-intro-content {   
@@ -316,7 +322,7 @@ h4 {
 
 .overmij-var {
     max-width: 1600px; 
-    padding: 0 32px; 
+    padding: 0 16px; 
     margin: 120px auto 0 auto;
 
 }
@@ -326,7 +332,7 @@ h4 {
     background-color: #1492A8;
     display: flex;
     height: 48px;
-    max-width: 320px;
+    max-width: 256px;
     margin: 0 auto;
     transform: skewX(-12deg);
 }
@@ -345,6 +351,7 @@ h5 {
     box-sizing: border-box;
     margin-top: -24px; 
     padding-top: 32px;
+    text-align: center;
     
 }
 
@@ -368,10 +375,9 @@ h6 {
 /* OVER MIJ > cyclus */
 
 .overmij-cyclus-container {
-    margin-top: 120px;
-    display: flex;
-    padding: 0 32px;
-    justify-content: space-between;
+    max-width: 1600px;
+    margin: 120px auto 0 auto;
+    padding: 0 16px;    
 }
 
 .overmij-cyclus-title {    
@@ -380,17 +386,55 @@ h6 {
     display: flex;
     height: 48px;
     max-width: 200px;
-    margin: -24px auto 32px auto;
+    margin: -24px auto 0 auto;
 }
 
-.overmij-cyclus-info {      
-    flex-basis: 30%;
+.overmij-cyclus-info {  
     border: 1px #1492A8 solid;
+    margin-bottom: 56px;
 }
 
 .overmij-cyclus-text {
-    padding: 40px;
+    padding: 20px;
 }
+
+/* FOOTER */
+
+footer {
+    height: 240px;
+    margin-top: 120px;
+    background-color: #1492A8;
+    padding: 0 16px;
+    display: flex;
+}
+
+.footer-text {
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    margin: auto;
+}
+
+.footer-text p {
+    padding: 0;
+    margin: 0;
+    color: #fff;
+}
+
+.footer-text p:first-child {
+    font-size: 30px;
+}
+
+.footer-text p:last-child {
+    font-size: 16px;
+    margin-top: 16px;
+}
+
+
+/* PAGINA BUREAU MHR  */
+
+
+
 
 @media only screen and (min-width: 600px) {
 
@@ -439,6 +483,9 @@ h6 {
         height: 800px;        
     }
 
+    .index-intro {
+        padding: 0 32px;
+    }
 
     .index-intro p {      
         font-size: 64px;
@@ -471,8 +518,7 @@ h6 {
     .portfolio-content-container {
         display: flex;
         justify-content: space-between;
-        flex-wrap: wrap;
-        
+        flex-wrap: wrap;        
     }  
 
     .portfolio-content {
@@ -484,7 +530,7 @@ h6 {
     .overmij-intro {
         display: flex;
         justify-content: space-around;
-        align-items: center;       
+        align-items: center;   
     }
 
     .overmij-intro-content img {
@@ -498,7 +544,7 @@ h6 {
     
 
     .me {
-        flex-basis: 30%
+        flex-basis: 30%;
     }
     
     .metekst {
@@ -517,10 +563,42 @@ h6 {
     .overmij-var-info {    
         flex-basis: 45%;
     }
+
+    /* OVER MIJ > cyclus */
+
+    .overmij-cyclus-container {
+        display: flex;
+        justify-content: space-between;
+        flex-flow: wrap;       
+    }
+
+    .overmij-cyclus-title {    
+       
+    }
+
+    .overmij-cyclus-info {         
+        flex-basis: 45%;
+    }
+
+    .overmij-cyclus-text {
+        padding: 20px;
+    }
 }
 
 
 @media only screen and (min-width: 900px) {
+    
+    .index-intro {
+        padding: 0 32px;
+    }   
+    
+    /* PORTFOLIO */
+
+    .portfolio-content-container {        
+        padding: 0 32px;
+        
+    }  
+    
     .portfolio-content {
         flex-basis: 30%;
     }
@@ -537,11 +615,33 @@ h6 {
         flex-basis: 40%;
     }
 
+    /* OVER MIJ > intro */
+
+    .overmij-intro {
+        padding: 0 32px;    
+    }
+
     /* OVERMIJ > vaardigheden */
+
+    .overmij-var {
+        padding: 0 32px;
+    }
     
     .overmij-var-info {    
         flex-basis: 30%;
-        padding: 40px;
+        padding: 20px;
+    }
+
+    /* OVER MIJ > cyclus */
+
+    .overmij-cyclus-container {
+        padding: 0 32px;
+
+        
+    }
+
+    .overmij-cyclus-info {         
+        flex-basis: 30%;
     }
         
 
