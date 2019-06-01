@@ -52,7 +52,7 @@ p {
 
 .navigate-container {
     padding: 0 16px;
-    max-width: 1600px;  
+    max-width: 1600px;    
     margin: 0;
     display: flex; 
     background-color: #fff;   
@@ -68,7 +68,25 @@ p {
     height: 56px;
 }
 
+#back {
+    position: absolute;
+    left: 16px;
+    color: #1492A8;      
+    box-sizing: border-box;
+    height: 56px;
+    display: flex;
+}
 
+#back a {
+    margin: auto;
+    display: flex;
+    text-decoration: none;   
+    color: #1492A8;  
+}
+
+#back img {
+    margin: auto 16px auto auto;
+}
 
 #x {
     display:none;
@@ -518,8 +536,7 @@ footer {
 
 .detail-info-images {
     margin-top: 40px;
-    background-color: #69CE59;
-   
+    background-color: #69CE59;   
 }
 
 .detail-info-images h3 {
@@ -626,7 +643,7 @@ footer {
         display: none;
     }
 
-    nav {          
+    #page-nav {          
         position: relative;            
         width: 100%;
 
