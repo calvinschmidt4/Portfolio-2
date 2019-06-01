@@ -487,7 +487,7 @@ footer {
 
 .bullits {
     border: 1px #1492A8 solid;
-    max-width: 320px;
+    max-width: 400px;
     margin: auto;
 }
 
@@ -535,9 +535,10 @@ footer {
 }
 
 .detail-info-images {
-    margin-top: 40px;
-    background-color: #69CE59;   
+    margin-top: 40px; 
 }
+
+
 
 .detail-info-images h3 {
     color: #fff;
@@ -548,11 +549,12 @@ footer {
 
 
 .detail-info-img-container {
-    max-width: 560px;
+    max-width: 700px;
     margin: auto;
     display: flex;
     justify-content: space-around;
     flex-flow: wrap;
+    align-items: center;
 }
 
 
@@ -562,6 +564,16 @@ footer {
     display: flex;
     margin-bottom: 32px;
 }
+
+#small {
+    flex-basis: 45%;
+}
+
+#big {
+    flex-basis: 90%;
+}
+
+
 
 .detail-info-img img {
     width: 100%;   
