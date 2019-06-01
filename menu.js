@@ -66,6 +66,7 @@ if ( w <= targetWidth) {
       else
           d.style.display = 'block';
     }    
+   
 
   document.getElementById("toggledrie").onclick =
     function toggle_visibility(hide) {
