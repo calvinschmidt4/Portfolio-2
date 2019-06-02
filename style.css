@@ -299,6 +299,10 @@ h3 {
     background-color: #000;
 }
 
+.red {
+    background-color: #DA0043;
+}
+
 .portfolio-img-container img {
     max-height: 100%;
     max-width: 100%;
