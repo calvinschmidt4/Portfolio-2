@@ -1,4 +1,4 @@
-window.onresize = function(){ location.reload(); }
+// window.onresize = function(){ location.reload(); }
 w = document.documentElement.clientWidth || document.body.clientWidth || window.innerWidth;
 var targetWidth = 600;
 if ( w <= targetWidth) {     
