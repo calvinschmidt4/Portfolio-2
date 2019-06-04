@@ -7,13 +7,13 @@ body, html {
     
 }
 
-.index-intro p {
-    margin: 0;
-    padding: 0;
-    color: #1492A8;
-    font-size: 48px;
-    font-weight: bold;
+.background-home {
+    background-image: url("images/circle-effect.png");
+    background-position: center; /* Center the image */
+    background-size: 7px;
 }
+
+
 
 
 p {
@@ -66,6 +66,10 @@ p {
     color: #1492A8;      
     box-sizing: border-box;
     height: 56px;
+}
+
+#hamburger {
+    display: block;
 }
 
 #back {
@@ -156,6 +160,7 @@ li a {
     height: 44px;
     width: auto;
     margin: auto 32px auto 0;
+    z-index: 1;
 }
 
 .logo img {
@@ -167,10 +172,11 @@ li a {
 
 header {
     width: 100%;
-    height: 400px;
-    margin-top: 80px;
-    background-color: #fff;
+    height: 100vh;
+    /* margin-top: 56px; */
+    /* background-color: #fff; */   
     display: flex;
+   
 }
 
 .index-intro {
@@ -178,6 +184,15 @@ header {
     text-align: center;
     margin: auto;
     padding: 0 16px;
+}
+
+.index-intro p {
+    margin: 0;
+    padding: 0;
+    color: #1492A8;
+    font-size: 48px;
+    font-weight: 700;
+    
 }
 
 .big-intro-square {
@@ -195,7 +210,7 @@ header {
 
 h1 {
     /* margin: 24px auto auto auto; */
-    margin: 8px auto auto auto;
+    margin: 4px auto auto auto;
     color: #fff; 
     /* font-size: 40px;  */
     font-size: 26px; 
@@ -228,32 +243,41 @@ h2 {
 main {
     
     margin: 0 auto;
-    background-color: #F2F2F2;
+    
+    
 }
 
 
-
-.portfolio {    
+/* .portfolio {    
     margin-top: 120px;
-}
+} */
 
-.portfolio-title, .overmij-title {
-    background-color: #1492A8;
+
+.portfolio-title, .overmij-title {   
+    background-image: url("images/long-line.svg");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat;
+    background-size: 100% 100px;
     height: 72px;
     display: flex;
 }
 
 h3 {
-    color: #fff;
+    color: #FFF;    
     margin: auto;
     font-size: 30px;
+}
+
+.title-background {
+    background-color: #1492A8;
+    padding: 8px 16px;
+    box-sizing: border-box;
 }
 
 .portfolio-content-container {
     padding: 0 16px;
     max-width: 1600px;
     margin: 120px auto 0 auto;
-    background-color: #F2F2F2;
     
     
     
@@ -375,7 +399,8 @@ h5 {
 }
 
 .overmij-var-info-container {     
-    border: 1px #1492A8 solid;
+    border: 1px #fff solid;
+    background-color: #fff;
     box-sizing: border-box;
     margin-top: -24px; 
     padding-top: 32px;
@@ -418,8 +443,9 @@ h6 {
 }
 
 .overmij-cyclus-info {  
-    border: 1px #1492A8 solid;
+    border: 1px #fff solid;
     margin-bottom: 56px;
+    background-color: #fff;
 }
 
 .overmij-cyclus-info:last-child {
@@ -433,7 +459,6 @@ h6 {
 /* FOOTER */
 
 footer {
-    background-color: #F2F2F2;
     display: flex;
 }
 
@@ -649,27 +674,38 @@ footer {
 
     /* NOHAMBURGER NAV */
 
+    .navigate{
+        width: 100%;
+    }
+
     .navigate-container {
         padding: 0 32px;
+        width: 100%;
        
         
     }
 
     #togglemenu {
-        display: none;
+        display: none !important;
+    }
+
+    #hamburger {
+        display: none !important;
     }
 
     #page-nav {          
-        position: relative;            
-        width: 100%;
-
+        position: initial;   
+        /* padding-left: 100px;
+        box-sizing: border-box; */
+        
+        width: auto;
         height: 100%;       
     }
 
     ul {                
         box-shadow: none;     
-              
-        display: flex;
+        width: 400px;      
+        display: flex !important;
         margin: auto 0;
         padding: 0;
     }
@@ -683,10 +719,19 @@ footer {
        
     }
 
+    #togglevier {
+        position: absolute;
+        right: 32px;
+    }
+
+    #togglevier a {
+        padding: 0;
+    }
+
     /* HEADER */
 
     header {        
-        height: 800px;        
+        /* height: 800px;         */
     }
 
     .index-intro {

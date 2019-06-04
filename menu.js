@@ -1,6 +1,7 @@
 // window.onresize = function(){ location.reload(); }
 w = document.documentElement.clientWidth || document.body.clientWidth || window.innerWidth;
 var targetWidth = 600;
+
 if ( w <= targetWidth) {     
 
   document.getElementById("togglemenu").onclick =
@@ -89,6 +90,10 @@ if ( w <= targetWidth) {
           d.style.display = 'block';
     }    
 }   
+
+window.onresize = function(){ 
+    
+ }
 
 // var slideIndex = 1;
 // showDivs(slideIndex);
