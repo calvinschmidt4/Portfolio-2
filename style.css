@@ -177,10 +177,10 @@ header {
     /* margin-top: 56px; */
     /* background-color: #fff; */   
     display: flex;
-    background-image: url("images/cloud.jpg");
+    background-image: url("images/circle-effect.png");
+    background-size: 7px;
     background-position: center;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
     
    
 }
