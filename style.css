@@ -8,9 +8,10 @@ body, html {
 }
 
 .background-home {
-    background-image: url("images/circle-effect.png");
-    background-position: center; /* Center the image */
-    background-size: 7px;
+    /* background-image: url("images/circle-image-two.png");
+    background-position: center;
+    background-size: 100px; */
+    /* background-color: rgba(109, 250, 121, 0.205); */
 }
 
 
@@ -176,6 +177,11 @@ header {
     /* margin-top: 56px; */
     /* background-color: #fff; */   
     display: flex;
+    background-image: url("images/cloud.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    
    
 }
 
@@ -241,7 +247,7 @@ h2 {
 /* PORTFOLIO */
 
 main {
-    
+    background-color: transparent;
     margin: 0 auto;
     
     
@@ -252,12 +258,34 @@ main {
     margin-top: 120px;
 } */
 
+#wave {
+    background-image: url("images/bg-text.png");
+    background-color: transparent;
+    margin-top: -20vh;
+}
+
+.wave {   
+
+    position: relative;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: 100% 30vh;
+    height: 20vh;
+    width: 100%;
+    
+    
+}
 
 .portfolio-title, .overmij-title {   
-    background-image: url("images/long-line.svg");
-    background-position: center; /* Center the image */
+    /* background-image: url("images/long-line.svg");
+    background-position: center;
     background-repeat: no-repeat;
-    background-size: 100% 100px;
+    background-size: 100% 200px; */
+
+
+   
+   
+   
     height: 72px;
     display: flex;
 }
@@ -349,22 +377,35 @@ h4 {
 
 .overmij-intro {   
     margin: 120px auto 0 auto;   
-    max-width: 1600px;
-    padding: 0 16px;    
+    max-width: 1536px;
+    padding: 0 16px; 
+    background-color: #fff;
+    /* border-radius: 50px;  */
 }
 
 .overmij-intro-content {   
     display: flex;
 }
 
+.me {   
+    padding: 32px;
+    box-sizing: border-box;
+}
+
+.metekst {    
+    padding: 32px;
+    box-sizing: border-box;
+}
+
 .overmij-intro-content img {
     width: 50%;
     height: 50%;
-    margin: 0 auto;    
+    margin: 0 auto;  
+    border-radius: 50px;  
 }
 
 .overmij-intro-content p {
-    margin-top: 60px;
+    /* margin-top: 60px; */
 }
 
 
@@ -778,17 +819,7 @@ footer {
 
     /* OVERMIJ */
 
-    .overmij-intro {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;   
-    }
-
-    .overmij-intro-content img {
-        width: 100%;
-        height: 100%;
-    }
-
+   
     .overmij-intro-content p {
         margin-top: 0;
     }
@@ -796,15 +827,21 @@ footer {
     .overmij-cyclus-info:last-child {
         margin-bottom: 56px;
     }
-    
 
-    .me {
-        flex-basis: 30%;
+    .overmij-intro-content img {
+        width: 40%;
+        height: 40%;
     }
+    
+/* 
+    .me {
+        flex-basis: 30%;       
+    }
+
     
     .metekst {
-        flex-basis: 60%;
-    }
+        flex-basis: 60%;        
+    } */
 
     /* OVERMIJ > vaardigheden */
 
@@ -862,12 +899,23 @@ footer {
         padding: 40px;
     }
 
+    .overmij-intro {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;   
+    }
+
+    .overmij-intro-content img {
+        width: 100%;
+        height: 100%;
+    }
+
     .me {
-        flex-basis: 20%
+        flex-basis: 30%;
     }
     
     .metekst {
-        flex-basis: 40%;
+        flex-basis: 60%;
     }
 
     /* OVER MIJ > intro */
