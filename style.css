@@ -108,18 +108,19 @@ nav {
     
     
     
-    /* background-color: #52006a;      */
+    
     display: flex;      
     
 }
 
-ul {   
+ul {  
+    
     display: none;   
     width: 100%;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-   
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    */
 
-
+    background-color: #52006a;    
     /* display: flex; */
     margin: 0 0 auto auto;
     padding: 56px 0 0 0;
@@ -181,7 +182,7 @@ li a {
    color: #fff;
    font-size: 22px;
    font-weight: bold;
-   font-family: 'Permanent Marker', cursive;
+   /* font-family: 'Permanent Marker', cursive; */
 
 }
 
@@ -193,7 +194,7 @@ header {
     margin-top: 56px;
     /* background-color: #fff; */   
     display: flex;
-    background-image: url("images/bg-mountain-top.png");
+    background-image: url("images/bg-mountain-small.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -220,15 +221,15 @@ header {
 }
 
 .big-intro-square {
-    /* background-color: #1492A8; */
-    /* height: 136px; */
-     /* max-width: 784px; */
-    /* height: 56px;
+    /* background-color: #1492A8;
+    height: 136px;
+     max-width: 784px;
+    height: 56px;
     margin: 60px auto 0 auto;
-    display: flex; 
-   
+    display: flex;    
     max-width: 320px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+
     transform: skewX(-12deg);    
 }
 
@@ -243,14 +244,15 @@ h1 {
 
 .small-intro-square {    
     /* margin: -8px auto 0 auto;
-    display: flex;   */
-    /* margin: -32px auto 0 auto; */
-    /* height: 80px;
-    max-width: 512px; */
-    /* height: 32px;
+    display: flex;  
+    margin: -32px auto 0 auto;
+    height: 80px;
+    max-width: 512px;
+    height: 32px;
     max-width: 240px;
     background-color: #fff;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+
     transform: skewX(-12deg);
 }
 
