@@ -8,10 +8,10 @@ body, html {
 }
 
 .background-home {
-    background-image: url("images/bg-gradient.png");
+    /* background-image: url("images/bg-mountain.png");
     background-position: center;
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
     /* background-size: 100px;
     background-color: rgba(109, 250, 121, 0.205); */
 }
@@ -46,7 +46,7 @@ p {
     top: 0;
     position: fixed;
     height: 56px;
-    background-color: #fff;    
+    background-color: #52006a;  
     width: 100%;    
     display: flex;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);   
@@ -57,7 +57,7 @@ p {
     max-width: 1600px;    
     margin: 0;
     display: flex; 
-    background-color: #fff;   
+    /* background-color: #2c0094; */
     
 }
 
@@ -107,8 +107,8 @@ nav {
     
     
     
-    
-    background-color: #fff;
+/*     
+    background-color: #2c0094; */
     display: flex;      
     
 }
@@ -153,7 +153,8 @@ li a {
     margin: auto 0;
     text-decoration: none;
     /* display: flex; */   
-    color: rgb(223, 89, 0);   
+    color: #fff;
+    font-size: 18px;
     
 }
 
@@ -177,8 +178,9 @@ li a {
 }
 
 .escape {
-   color: #1492A8;  
-   font-size: 20px;
+   color: #fff;
+   font-size: 22px;
+   font-weight: bold;
 
 }
 
@@ -186,8 +188,8 @@ li a {
 
 header {
     width: 100%;
-    height: 100vh;
-    /* margin-top: 56px; */
+    height: 90vh;
+    margin-top: 56px;
     /* background-color: #fff; */   
     display: flex;
     /* background-image: url("images/circle-effect.png");
@@ -199,6 +201,11 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover; */
+
+    background-image: url("images/bg-mountain-sea.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 
     
    
@@ -221,15 +228,15 @@ header {
 }
 
 .big-intro-square {
-    background-color: #1492A8;
+    /* background-color: #1492A8; */
     /* height: 136px; */
      /* max-width: 784px; */
-    height: 56px;
+    /* height: 56px;
     margin: 60px auto 0 auto;
     display: flex; 
    
     max-width: 320px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
     transform: skewX(-12deg);    
 }
 
@@ -243,21 +250,21 @@ h1 {
 }
 
 .small-intro-square {    
-    margin: -8px auto 0 auto;
-    display: flex;  
+    /* margin: -8px auto 0 auto;
+    display: flex;   */
     /* margin: -32px auto 0 auto; */
     /* height: 80px;
     max-width: 512px; */
-    height: 32px;
+    /* height: 32px;
     max-width: 240px;
     background-color: #fff;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
     transform: skewX(-12deg);
 }
 
 h2 {
     margin: auto;
-    color: #1492A8;
+    color: #fff;
     /* font-size: 32px;  */
     font-size: 18px; 
     transform: skewX(12deg);
@@ -275,7 +282,8 @@ main {
 
 .portfolio {    
     /* margin-top: 120px; */
-    background-color: #fff;
+    /* background-color: #fff; */
+    background: linear-gradient(#52006a, #2c0094);
 }
 
 /* #wave {
@@ -311,10 +319,14 @@ main {
 }
 
 h3 {
-    color: #1492A8;
-    margin: auto;
+    /* background: linear-gradient(#52006a, #2c0094);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+    color: #fff;
+    margin: 60px auto auto auto;
     font-size: 30px;
 }
+   
 
 .title-background {
     /* background-color: #1492A8; */
@@ -340,7 +352,7 @@ h3 {
 .portfolio-content {  
     cursor: pointer;  
     box-sizing: border-box;   
-    margin-bottom: 32px;
+    margin: 32px;
     background-color: #fff;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
@@ -373,7 +385,8 @@ h3 {
   }
 
   .text {
-    background-color: #1492A8;
+    /* background-color: #1492A8; */
+    background: linear-gradient(#52006a, #2c0094);
     color: white;
     font-size: 18px;
     padding: 16px 16px;
@@ -391,6 +404,7 @@ h3 {
 
 .portfolio-content-info {
     padding: 20px;
+    
 }
 
 .portfolio-img-container {
@@ -425,7 +439,9 @@ h3 {
 
 h4 {
     font-size: 22px;
-    color: #1492A8;
+    background: linear-gradient(#52006a, #2c0094);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     margin: 0;
     padding: 0;
 }
@@ -436,6 +452,11 @@ h4 {
 
 .overmij {    
     margin-top: 120px;
+    /* background-image: url("images/bg-mountain-down.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; */
+    
 }
 
 .overmij-intro {   
@@ -872,7 +893,7 @@ footer {
 
     .portfolio-content-container {
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
         flex-wrap: wrap;        
     }  
 
@@ -955,11 +976,12 @@ footer {
     }  
     
     .portfolio-content {
-        flex-basis: 30%;
+        flex-basis: 35%;
     }
 
     .portfolio-content-info {
         padding: 40px;
+        
     }
 
     .overmij-intro {
