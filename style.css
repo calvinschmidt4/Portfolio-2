@@ -8,10 +8,12 @@ body, html {
 }
 
 .background-home {
-    /* background-image: url("images/circle-image-two.png");
+    background-image: url("images/bg-gradient.png");
     background-position: center;
-    background-size: 100px; */
-    /* background-color: rgba(109, 250, 121, 0.205); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-size: 100px;
+    background-color: rgba(109, 250, 121, 0.205); */
 }
 
 
@@ -47,8 +49,7 @@ p {
     background-color: #fff;    
     width: 100%;    
     display: flex;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-   
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);   
 }
 
 .navigate-container {
@@ -152,7 +153,7 @@ li a {
     margin: auto 0;
     text-decoration: none;
     /* display: flex; */   
-    color: #1492A8;   
+    color: rgb(223, 89, 0);   
     
 }
 
@@ -213,7 +214,7 @@ header {
 .index-intro p {
     margin: 0;
     padding: 0;
-    color: #1492A8;
+    color: #fff;
     font-size: 48px;
     font-weight: 700;
     
@@ -274,7 +275,7 @@ main {
 
 .portfolio {    
     /* margin-top: 120px; */
-    background-color: #008f58;
+    background-color: #fff;
 }
 
 /* #wave {
@@ -310,7 +311,7 @@ main {
 }
 
 h3 {
-    color: #fff;
+    color: #1492A8;
     margin: auto;
     font-size: 30px;
 }
