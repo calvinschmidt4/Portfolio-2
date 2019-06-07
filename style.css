@@ -277,7 +277,7 @@ main {
 .portfolio {    
     /* margin-top: 120px; */
     /* background-color: #fff; */
-    background: linear-gradient(#52006a, #2c0094);
+    background: #fff;
 }
 
 /* #wave {
@@ -316,7 +316,7 @@ h3 {
     /* background: linear-gradient(#52006a, #2c0094);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; */
-    color: #fff;
+    color: #000;
     margin: 60px auto auto auto;
     font-size: 30px;
 }
@@ -451,18 +451,19 @@ h4 {
     background-size: cover;
     background-repeat: no-repeat; */
     
+    
 }
 
 .overmij-title h3 {
-    color: #000;
+    color: #fff;
 }
 
 .overmij-intro {   
     margin: 120px auto 0 auto;   
     max-width: 1536px;
     padding: 0 16px; 
-    background-color: #fff;
-    /* border-radius: 50px;  */
+    /* background-color: #fff; */
+    /* border-radius: 50px;  */    
 }
 
 .overmij-intro-content {   
@@ -491,7 +492,15 @@ h4 {
 }
 
 
-/* OVER MIJ > vaardigheden */
+/* VAARDIGHEDEN */ 
+
+.vaardigheden {
+    background: linear-gradient(#52006a, #2c0094);
+    margin-top: 120px;
+}
+
+
+/* VAARDIGHEDEN > tools */
 
 
 
@@ -548,12 +557,13 @@ h6 {
 }
 
 
-/* OVER MIJ > cyclus */
+/* VAARDIGHEDEN > cyclus */
 
 .overmij-cyclus-container {
     max-width: 1600px;
     margin: 120px auto 0 auto;
     padding: 0 16px;  
+    
       
 }
 
@@ -563,6 +573,7 @@ h6 {
     /* background-color: red; */
     padding: 16px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #fff;
 }
 
 .overmij-cyclus-title {    
