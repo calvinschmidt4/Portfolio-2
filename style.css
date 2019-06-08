@@ -46,7 +46,8 @@ p {
     top: 0;
     position: fixed;
     height: 56px;
-    background-color: #52006a;  
+    /* background-color: #52006a;   */
+    background-color: #fff;
     width: 100%;    
     display: flex;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);   
@@ -119,8 +120,8 @@ ul {
     width: 100%;
     /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     */
-
-    background-color: #52006a;    
+    background-color: #fff;
+    /* background-color: #52006a;     */
     /* display: flex; */
     margin: 0 0 auto auto;
     padding: 56px 0 0 0;
@@ -154,7 +155,7 @@ li a {
     margin: auto 0;
     text-decoration: none;
     /* display: flex; */   
-    color: #fff;
+    color: #52006a;
     font-size: 18px;
     
 }
@@ -455,7 +456,7 @@ h4 {
 }
 
 .overmij-title h3 {
-    color: #fff;
+    color: #000;
 }
 
 .overmij-intro {   
@@ -561,7 +562,7 @@ h6 {
 
 .overmij-cyclus-container {
     max-width: 1600px;
-    margin: 120px auto 0 auto;
+    margin: 56px auto 0 auto;
     padding: 0 16px;  
     
       
