@@ -180,7 +180,7 @@ li a {
 }
 
 .escape {
-   color: #fff;
+   color: #52006a;
    font-size: 22px;
    font-weight: bold;
    /* font-family: 'Permanent Marker', cursive; */
@@ -195,7 +195,7 @@ header {
     margin-top: 56px;
     /* background-color: #fff; */   
     display: flex;
-    background-image: url("images/bg-mountain-small.png");
+    background-image: url("images/bg-mountain-view.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -213,9 +213,10 @@ header {
 
 .index-intro p {
     margin: 0;
+    margin-top: 60px;
     padding: 0;
     color: #fff;
-    font-size: 48px;
+    font-size: 40px;
     font-weight: bold;   
     
     
@@ -231,7 +232,7 @@ header {
     max-width: 320px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
 
-    transform: skewX(-12deg);    
+    /* transform: skewX(-12deg);     */
 }
 
 h1 {
@@ -240,7 +241,7 @@ h1 {
     color: #fff; 
     /* font-size: 40px;  */
     font-size: 26px; 
-    transform: skewX(12deg);
+    /* transform: skewX(12deg); */
 }
 
 .small-intro-square {    
@@ -254,7 +255,7 @@ h1 {
     background-color: #fff;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
 
-    transform: skewX(-12deg);
+    /* transform: skewX(-12deg); */
 }
 
 h2 {
@@ -262,7 +263,7 @@ h2 {
     color: #fff;
     /* font-size: 32px;  */
     font-size: 18px; 
-    transform: skewX(12deg);
+    /* transform: skewX(12deg); */
 }
 
 /* PORTFOLIO */
@@ -498,6 +499,7 @@ h4 {
 .vaardigheden {
     background: linear-gradient(#52006a, #2c0094);
     margin-top: 120px;
+    display: flex;
 }
 
 
@@ -563,7 +565,8 @@ h6 {
 .overmij-cyclus-container {
     max-width: 1600px;
     margin: 56px auto 0 auto;
-    padding: 0 16px;  
+    padding: 0 16px; 
+    display: block; 
     
       
 }
@@ -572,7 +575,8 @@ h6 {
     border: 1px #fff solid;
     margin-bottom: 56px;
     /* background-color: red; */
-    padding: 16px;
+    padding: 48px;
+    box-sizing: border-box;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     background-color: #fff;
 }
@@ -587,7 +591,7 @@ h6 {
 }
 
 .overmij-icons {
-    margin: 0 auto;
+    margin: 0 auto 32px 0;
     display: flex;
     height: 48px;
 }
@@ -891,11 +895,11 @@ footer {
     }
 
     .index-intro p {      
-        font-size: 48px;
+        font-size: 40px;
     }
 
     .big-intro-square {   
-        margin: 120px auto 0 auto;   
+        margin: 32px auto 0 auto;   
         height: 104px;
         max-width: 720px;    
     }
@@ -971,7 +975,7 @@ footer {
 
     .overmij-cyclus-container {
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
         flex-flow: wrap;       
     }
 
@@ -984,7 +988,7 @@ footer {
     }
 
     .overmij-cyclus-text {
-        padding: 20px;
+        /* padding: 20px; */
     }
 }
 
