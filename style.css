@@ -183,8 +183,7 @@ li a {
    color: #52006a;
    font-size: 22px;
    font-weight: bold;
-   /* font-family: 'Permanent Marker', cursive; */
-
+   font-family: 'Montserrat', sans-serif;
 }
 
 /* HEADER */
@@ -320,7 +319,9 @@ h3 {
     -webkit-text-fill-color: transparent; */
     color: #000;
     margin: 60px auto auto auto;
-    font-size: 30px;
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
 }
    
 
@@ -486,7 +487,11 @@ h4 {
     width: 50%;
     height: 50%;
     margin: 0 auto;  
-    border-radius: 50px;  
+    border-radius: 50%;  
+    /* border: 4px #52006a solid; */
+    box-sizing: border-box;
+    box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
 }
 
 .overmij-intro-content p {
@@ -896,6 +901,8 @@ footer {
 
     .index-intro p {      
         font-size: 40px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
     }
 
     .big-intro-square {   
