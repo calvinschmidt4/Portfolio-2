@@ -28,14 +28,14 @@ p {
 .offset {
     display: block;
     position: relative;
-    top: -72px;
+    top: 0px;
     visibility: hidden;
 }
 
 .offset-overmij {
     display: block;
     position: relative;
-    top: 16px;
+    top: -40px;
     visibility: hidden;
 }
 
@@ -180,7 +180,7 @@ li a {
 }
 
 .escape {
-   color: #52006a;
+   color: #2c0094;
    font-size: 22px;
    font-weight: bold;
    font-family: 'Montserrat', sans-serif;
@@ -504,7 +504,9 @@ h4 {
 .vaardigheden {
     background: linear-gradient(#52006a, #2c0094);
     margin-top: 120px;
+    padding: 0 16px;
     display: flex;
+    flex-flow: column;
 }
 
 
@@ -514,19 +516,22 @@ h4 {
 
 .overmij-var {
     max-width: 1600px; 
-    padding: 0 16px; 
-    margin: 120px auto 0 auto;
-
+    /* padding: 0 16px;  */
+    margin: 0 auto 56px auto;
+    background-color: #fff;
+    padding-top: 32px;
 }
 
 
 .overmij-var-title {
-    background-color: #1492A8;
+    /* background-color: #1492A8; */
     display: flex;
-    height: 48px;
-    max-width: 256px;
+    /* height: 48px; */
+    /* max-width: 256px; */
     margin: 0 auto;
     /* transform: skewX(-12deg); */
+    
+
 }
 
 h5 {
@@ -538,20 +543,21 @@ h5 {
     font-weight: normal;    
 }
 
-.overmij-var-info-container {     
-    border: 1px #fff solid;
-    background-color: #fff;
+.overmij-var-info-container {    
+    /* border: 1px #fff solid; */
+    /* background-color: #fff; */
     box-sizing: border-box;
-    margin-top: -24px; 
-    padding-top: 32px;
+    margin-top: 0;
+  
+    /* padding-top: 32px; */
     text-align: center;
     
 }
 
 .overmij-var-info {    
-    padding: 20px;
+    padding: 32px;
     box-sizing: border-box;
-    margin-bottom: 32px;
+    /* margin-bottom: 32px; */
 }
 
 
@@ -570,7 +576,7 @@ h6 {
 .overmij-cyclus-container {
     max-width: 1600px;
     margin: 56px auto 0 auto;
-    padding: 0 16px; 
+    /* padding: 0 16px;  */
     display: block; 
     
       
@@ -580,7 +586,7 @@ h6 {
     border: 1px #fff solid;
     margin-bottom: 56px;
     /* background-color: red; */
-    padding: 48px;
+    padding: 32px;
     box-sizing: border-box;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     background-color: #fff;
@@ -627,7 +633,7 @@ footer {
     height: 240px;
     margin-top: 120px;
     display: flex;
-    background-color: #1492A8;
+    background-color: #2c0094;
     padding: 0 16px;
     width: 100%;
 }
@@ -978,11 +984,15 @@ footer {
         flex-basis: 45%;
     }
 
-    /* OVER MIJ > cyclus */
+    /* OVER MIJ > vaardigheden */
+
+    .vaardigheden {
+        padding: 0 32px;
+    }
 
     .overmij-cyclus-container {
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
         flex-flow: wrap;       
     }
 
@@ -1050,18 +1060,18 @@ footer {
     /* OVERMIJ > vaardigheden */
 
     .overmij-var {
-        padding: 0 32px;
+        /* padding: 0 32px; */
     }
     
     .overmij-var-info {    
         flex-basis: 30%;
-        padding: 20px;
+        padding: 32px;
     }
 
     /* OVER MIJ > cyclus */
 
     .overmij-cyclus-container {
-        padding: 0 32px;
+        /* padding: 0 32px; */
 
         
     }
