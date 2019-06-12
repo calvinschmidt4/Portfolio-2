@@ -1,6 +1,6 @@
 // window.onresize = function(){ location.reload(); }
 w = document.documentElement.clientWidth || document.body.clientWidth || window.innerWidth;
-var targetWidth = 600;
+var targetWidth = 900;
 
 if ( w <= targetWidth) {     
 
