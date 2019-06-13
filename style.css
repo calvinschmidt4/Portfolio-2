@@ -1,9 +1,13 @@
+@import url("https://use.typekit.net/qvy5qkz.css");
+
+
 body, html {
     margin: 0 auto;
     padding: 0;
     width: 100%;
     height: 100%;
-    font-family: 'poppins', 'sans-serif';
+   
+    /* font-family: 'futura-pt', 'sans-serif'; */
     
 }
 
@@ -23,12 +27,13 @@ p {
     font-size: 16px;
     margin: 0;
     padding: 0;
+    font-family: 'roboto', 'sans-serif';
 }
 
 .offset {
     display: block;
     position: relative;
-    top: -48px;
+    top: -56px;
     visibility: hidden;
 }
 
@@ -45,7 +50,7 @@ p {
     z-index: 10;
     top: 0;
     position: fixed;
-    height: 48px;
+    height: 56px;
     /* background-color: #52006a;   */
     background-color: #fff;
     width: 100%;    
@@ -67,7 +72,7 @@ p {
     display: flex;
     color: #1492A8;      
     box-sizing: border-box;
-    height: 48px;
+    height: 56px;
 }
 
 #hamburger {
@@ -80,7 +85,7 @@ p {
     left: 16px;
     color: #1492A8;      
     box-sizing: border-box;
-    height: 48px;
+    height: 56px;
     display: flex;
 }
 
@@ -157,8 +162,11 @@ li a {
     text-decoration: none;
     /* display: flex; */   
     color: #52006a;
-    font-size: 16px;
-    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    font-family: bungee, sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    letter-spacing: 2px;
     
 }
 
@@ -184,8 +192,9 @@ li a {
 .escape {
    color: #2c0094;
    font-size: 22px;
-   font-weight: bold;
-   font-family: 'Montserrat', sans-serif;
+   font-family: bungee, sans-serif;
+    font-style: normal;
+    font-weight: 400;
 }
 
 /* HEADER */
@@ -193,10 +202,10 @@ li a {
 header {
     width: 100%;
     height: 90vh;
-    margin-top: 48px;
+    margin-top: 56px;
     /* background-color: #fff; */   
     display: flex;
-    background-image: url("images/bg-mountain-view.png");
+    background-image: url("images/bg-mountain-view-centered.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -217,8 +226,14 @@ header {
     margin-top: 60px;
     padding: 0;
     color: #fff;
-    font-size: 40px;
-    font-weight: bold;   
+    font-size: 32px;
+    /* font-weight: bold;  
+    font-family: 'Playball', cursive;  */
+
+    font-family: bungee, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 2px;
     
     
 }
@@ -322,8 +337,14 @@ h3 {
     color: #52006a;
     margin: 60px auto auto auto;
     font-size: 40px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 500;
+    letter-spacing: 2px;
+    
+    /* font-family: 'Montserrat', sans-serif; */
+
+
+    font-family: bungee, sans-serif;
+    font-style: normal;
+    font-weight: 800;
 }
    
 
@@ -443,6 +464,9 @@ h4 {
     -webkit-text-fill-color: transparent;
     margin: 0;
     padding: 0;
+    font-family: bungee, sans-serif;
+    font-style: normal;
+    font-weight: 400;
 }
 
 
@@ -478,6 +502,11 @@ h4 {
 .me {   
     padding: 32px;
     box-sizing: border-box;
+    border: 8px dotted #51006a;
+    border-radius: 50%;  
+    /* width: auto;
+    height: auto; */
+    margin: auto;
 }
 
 .metekst {    
@@ -485,14 +514,14 @@ h4 {
     box-sizing: border-box;
 }
 
+
+
 .overmij-intro-content img {
-    width: 50%;
-    height: 50%;
+    width: 100%;
+    height: 100%;
     margin: 0 auto;  
-    border-radius: 50%;  
-    /* border: 4px #52006a solid; */
+    border-radius: 50%;
     box-sizing: border-box;
-    box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     
 }
 
@@ -541,8 +570,12 @@ h5 {
     font-size: 28px;
     margin: auto;
     padding: 0;
-    /* transform: skewX(12deg);    */
-    font-weight: normal;    
+    /* transform: skewX(12deg);    */ 
+    font-family: bungee, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    color: #52006a;
+    letter-spacing: 2px;
 }
 
 .overmij-var-info-container {    
@@ -565,11 +598,14 @@ h5 {
 
 
 h6 {
-    font-size: 24px;
-    color: #1492A8;
+    font-size: 20px;
+    color: #000;
     margin: 0;
     padding: 0;
     font-weight: normal; 
+    font-family: bungee, sans-serif;
+    font-style: normal;
+    font-weight: 400;
 }
 
 
@@ -598,7 +634,7 @@ h6 {
     /* transform: skewX(-12deg);   */
     /* background-color: #1492A8; */
     display: flex;
-    height: 48px;
+    /* height: 48px; */
     max-width: 200px;
     margin: 0 auto 0 auto;
 }
@@ -851,8 +887,6 @@ footer {
 
     .index-intro p {      
         font-size: 40px;
-        font-family: 'Montserrat', sans-serif;
-        font-weight: bold;
     }
 
     .big-intro-square {   
@@ -887,6 +921,10 @@ footer {
 
     .portfolio-content {
         flex-basis: 45%;
+    }
+
+    h3 {
+        font-size: 48px;
     }
 
     /* OVERMIJ */
@@ -980,20 +1018,23 @@ footer {
 
     ul {                
         box-shadow: none;     
-        width: 400px;      
+        /* width: 400px;       */
         display: flex !important;
-        margin: auto 0;
+        margin: 0;
         padding: 0;
     }
 
     li {
-        padding: 0; 
+        padding: 0 32px 0 0; 
+        margin: 0;
     }
 
     li a {
-        padding-right: 32px;  
-       
+        padding: 0;
+        margin: 0;  
     }
+
+
 
     /* #togglevier {
         position: absolute;
