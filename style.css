@@ -355,7 +355,7 @@ h3 {
 }
 
 .portfolio-content-container {
-    padding: 0 16px;
+    padding: 0;
     max-width: 1600px;
     margin: 120px auto 0 auto;
     
@@ -381,6 +381,7 @@ h3 {
     height: auto; */
     transition: .5s ease; 
     position: relative; 
+    border-radius: 12px;
 }
 
 .portfolio-content-hover {
@@ -434,6 +435,7 @@ h3 {
     box-sizing: border-box;  
     justify-content: center; /* align horizontal */
     align-items: center; /* align vertical */
+    border-radius: 12px 12px 0 0;
 }
 
 .green {
@@ -551,6 +553,7 @@ h4 {
     margin: 0 auto 56px auto;
     background-color: #fff;
     padding-top: 32px;
+    border-radius: 12px;
 }
 
 
@@ -592,6 +595,7 @@ h5 {
 .overmij-var-info {    
     padding: 32px;
     box-sizing: border-box;
+    margin: 0 auto;
     /* margin-bottom: 32px; */
 }
 
@@ -621,13 +625,14 @@ h6 {
 }
 
 .overmij-cyclus-info {  
-    border: 1px #fff solid;
+    /* border: 1px #fff solid; */
     margin-bottom: 56px;
     /* background-color: red; */
     padding: 32px;
     box-sizing: border-box;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     background-color: #fff;
+    border-radius: 12px;
 }
 
 .overmij-cyclus-title {    
@@ -914,6 +919,7 @@ footer {
     /* PORTFOLIO */
 
     .portfolio-content-container {
+        padding: 0 16px;
         display: flex;
         justify-content: center;
         flex-wrap: wrap;        
