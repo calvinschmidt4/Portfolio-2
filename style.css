@@ -508,12 +508,12 @@ h4 {
     border-radius: 50%;  
     /* width: auto;
     height: auto; */
-    margin: auto;
+    margin: 32px auto 32px auto;
 }
 
 .metekst {    
-    padding: 32px;
-    box-sizing: border-box;
+    /* padding: 16px;
+    box-sizing: border-box; */
 }
 
 
