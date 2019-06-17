@@ -140,10 +140,13 @@ $( document ).ready(function() { // Tells the function to wait to preform until 
 
 
 
-// var slogan = document.getElementById("slogan");
+
 // TweenMax.fromTo(slogan, 1.5, {css:{scale: 0.5, opacity:0}}, {css:{scale: 1, opacity:1}});
 
+var slogan = document.getElementById("slogan");
 
+
+TweenMax.fromTo(slogan, 1, {css:{y: "100px", opacity:0}}, {css:{y: "0px", opacity:1}});
 
 
 
