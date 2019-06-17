@@ -754,6 +754,7 @@ footer {
     border: 1px #2c0094 solid;
     max-width: 400px;
     margin: auto;
+    border-radius: 12px;
 }
 
 .bullits {
