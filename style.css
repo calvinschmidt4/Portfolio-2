@@ -147,27 +147,38 @@ li {
 
 
     
-    
-    flex-grow: 1;
+/*     
+    flex-grow: 1; */
     cursor: pointer;
     margin: auto;
     /* display: flex; */
     height: 100%;
     text-align: center;
+    display: flex;
     
 }
 
 li a {  
-    margin: auto 0;
+    margin: auto;
     text-decoration: none;
     /* display: flex; */   
-    color: #52006a;
-    font-size: 22px;
-    font-family: bungee, sans-serif;
-    font-style: normal;
-    font-weight: 800;
-    letter-spacing: 2px;
+    color: #000;
+    font-size: 18px;
+    font-family: 'roboto', 'sans-serif';
+    font-weight: 500;   
+    line-height: 30px;
     
+}
+
+.current-menu-item a {
+    color: #52006a;
+    border-bottom: 4px solid #52006a;
+}
+
+li a:hover {
+    /* transform: scale(1.2); */
+    
+    /* color: #52006a; */
 }
 
 
@@ -190,9 +201,9 @@ li a {
 }
 
 .escape {
-   color: #2c0094;
-   font-size: 22px;
-   font-family: bungee, sans-serif;
+    color: #2c0094;
+    font-size: 22px;
+    font-family: bungee, sans-serif;
     font-style: normal;
     font-weight: 400;
 }
@@ -252,12 +263,7 @@ header {
 }
 
 h1 {
-    /* margin: 24px auto auto auto; */
-    margin: 4px auto auto auto;
-    color: #fff; 
-    /* font-size: 40px;  */
-    font-size: 26px; 
-    /* transform: skewX(12deg); */
+    
 }
 
 .small-intro-square {    
@@ -275,11 +281,7 @@ h1 {
 }
 
 h2 {
-    margin: auto;
-    color: #fff;
-    /* font-size: 32px;  */
-    font-size: 18px; 
-    /* transform: skewX(12deg); */
+
 }
 
 /* PORTFOLIO */
@@ -469,6 +471,7 @@ h4 {
     font-family: bungee, sans-serif;
     font-style: normal;
     font-weight: 400;
+    line-height: 30px;
 }
 
 
@@ -670,15 +673,25 @@ h6 {
 
 footer {
     display: flex;
+    margin-top: 120px;
+    height: 90vh;
+    background-color: #2c0094;
 }
 
-.footer-text-container {
-    height: 240px;
-    margin-top: 120px;
+
+
+.footer-text-container {    
+    margin: auto;
     display: flex;
-    background-color: #2c0094;
+   
     padding: 0 16px;
     width: 100%;
+    flex-flow: column;
+}
+
+.contact-title h3 {
+    color: #fff;
+    text-align: center;
 }
 
 .footer-text {
@@ -692,17 +705,26 @@ footer {
     padding: 0;
     margin: 0;
     color: #fff;
+    font-size: 18px;
 }
 
-.footer-text p:first-child {
-    font-size: 30px;
+.send {
+    margin: 32px auto auto auto;
+    width: 120px;
+    height: 120px;
 }
 
-.footer-text p:last-child {
-    font-size: 16px;
-    margin-top: 16px;
+.send img {
+    height: 100%;
+    width: 100%;
 }
 
+.navigate p {
+    color: #2c0094;    
+    font-family: bungee, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
 
 /* PAGINA BUREAU MHR  */
 
@@ -718,14 +740,18 @@ footer {
 }
 
 .detail-title h1 {
-    color: #1492A8;
-    transform: skewX(0); 
+    margin: 4px auto auto auto;  
+    font-size: 26px;
+    color: #2c0094;    
+    font-family: bungee, sans-serif;
+    font-style: normal;
+    font-weight: 800;
     text-align: center;
-    font-size: 40px;
+    font-size: 32px;
 }
 
 .bullits {
-    border: 1px #1492A8 solid;
+    border: 1px #2c0094 solid;
     max-width: 400px;
     margin: auto;
 }
@@ -743,6 +769,8 @@ footer {
 .bullits-info a {    
     color: #000;
     font-weight: bold;
+    font-family: 'roboto', 'sans-serif';
+
 }
 
 .bullits-info p {
@@ -768,9 +796,13 @@ footer {
 
 
 .detail-info-text h2 {
-    transform: skewX(0); 
     text-align: center;
-    font-size: 32px;
+    font-size: 28px;
+    margin: auto;
+    color: #2c0094;    
+    font-family: bungee, sans-serif;
+    font-style: normal;
+    font-weight: 600;
 }
 
 .detail-info-images {
@@ -780,7 +812,10 @@ footer {
 
 
 .detail-info-images h3 {
-    color: #fff;
+    color: #2c0094;    
+    font-family: bungee, sans-serif;
+    font-style: normal;
+    font-weight: 400;
     font-size: 20px;
     text-align: center;
     padding: 20px;
@@ -1032,25 +1067,9 @@ footer {
 
     li {
         padding: 0 32px 0 0; 
-        margin: 0;
     }
 
-    li a {
-        padding: 0;
-        margin: 0;  
-    }
-
-
-
-    /* #togglevier {
-        position: absolute;
-        right: 32px;
-    }
-
-    #togglevier a {
-        padding: 0;
-    } */
-    
+       
     .index-intro {
         padding: 0 32px;
     }   
